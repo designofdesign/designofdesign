@@ -22,7 +22,7 @@
 .C1 .mobile-nav-symbol,
 .C1 .scrollSpy-btn-symbol,
 .C1 .reminder-symbol {
-    background-color: #a31e2d !important;
+    background-color: #D05459 !important;
 }
 
 
@@ -31,7 +31,7 @@
 } */
 
 .C1 .card-header {
-    background-color: #953843 !important;
+    background-color: #D05459 !important;
 }
 
 .C1 .story-card-body {
@@ -45,7 +45,7 @@
 .C2 .mobile-nav-symbol,
 .C2 .scrollSpy-btn-symbol,
 .C2 .reminder-symbol {
-    background-color: #6f8f5b !important;
+    background-color: #E7ABA5 !important;
 }
 
 
@@ -54,7 +54,7 @@
 } */
 
 .C2 .card-header {
-    background-color: #6f8f5b;
+    background-color: #E7ABA5;
 }
 
 .C2 .story-card-body {
@@ -68,7 +68,7 @@
 .C3 .mobile-nav-symbol,
 .C3 .scrollSpy-btn-symbol,
 .C3 .reminder-symbol {
-    background-color: #524c7b !important;
+    background-color: #F5C374 !important;
 }
 
 
@@ -77,7 +77,7 @@
 } */
 
 .C3 .card-header {
-    background-color: #524c7b;
+    background-color: #F5C374;
 }
 
 .C3 .story-card-body {
@@ -91,7 +91,7 @@
 .C4 .mobile-nav-symbol,
 .C4 .scrollSpy-btn-symbol,
 .C4 .reminder-symbol {
-    background-color: #ab815c !important;
+    background-color: #9BA846 !important;
 }
 
 
@@ -100,7 +100,7 @@
 } */
 
 .C4 .card-header {
-    background-color: #ab815c;
+    background-color: #9BA846;
 }
 
 .C4 .story-card-body {
@@ -113,7 +113,7 @@
 .C5 .mobile-nav-symbol,
 .C5 .scrollSpy-btn-symbol,
 .C5 .reminder-symbol {
-    background-color: #d6af00 !important;
+    background-color: #39829D !important;
 }
 
 
@@ -122,7 +122,7 @@
 } */
 
 .C5 .card-header {
-    background-color: #d6af00;
+    background-color: #39829D;
 }
 
 .C5 .story-card-body {
@@ -135,7 +135,7 @@
 .C6 .mobile-nav-symbol,
 .C6 .scrollSpy-btn-symbol,
 .C6 .reminder-symbol {
-    background-color: #0077aa !important;
+    background-color: #9BA846 !important;
 }
 
 
@@ -144,7 +144,7 @@
 } */
 
 .C6 .card-header {
-    background-color: #0077aa;
+    background-color: #9BA846;
 }
 
 .C6 .story-card-body {
@@ -157,7 +157,7 @@
 .C7 .mobile-nav-symbol,
 .C7 .scrollSpy-btn-symbol,
 .C7 .reminder-symbol {
-    background-color: #c26d57 !important;
+    background-color: #39829D !important;
 }
 
 
@@ -166,7 +166,7 @@
 } */
 
 .C7 .card-header {
-    background-color: #c26d57;
+    background-color: #39829D;
 }
 
 .C7 .story-card-body {
@@ -179,7 +179,7 @@
 .C8 .mobile-nav-symbol,
 .C8 .scrollSpy-btn-symbol,
 .C8 .reminder-symbol {
-    background-color: #94cfb9 !important;
+    background-color: #39829D !important;
 }
 
 
@@ -188,7 +188,7 @@
 } */
 
 .C8 .card-header {
-    background-color: #94cfb9;
+    background-color: #39829D;
 }
 
 .C8 .story-card-body {
@@ -1302,6 +1302,7 @@ footer .footer-text {
     justify-content: center;
     /* padding-bottom: 0.5rem; */
     color: white;
+    text-align: center;
 }
 
 .header-text-class {
@@ -2273,7 +2274,8 @@ footer .footer-text {
 
 .about-main {
     flex: 1 0 auto;
-    max-width: 61.25rem;
+    max-width: 1800px;
+    min-width: 600px;
     margin: 0 auto;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;

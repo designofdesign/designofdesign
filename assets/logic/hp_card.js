@@ -359,7 +359,7 @@ class Homepage_Card {
         let rating_star = "";
         let button_text = "";
         let index_text = "";
-        let card_footer_bottom_html = "";
+        // let card_footer_bottom_html = "";
         let card_footer_bottom_icon_html = "";
         let card_footer_node = document.createElement("div");
         let card_footer_bottom_node = document.createElement("span");
@@ -367,23 +367,23 @@ class Homepage_Card {
         if (direction > 0) {
             // positive
             //id编号
-            index_text = `<span class="card-footer-num">NO. ${this.parameters["card_id"]}</span>`;
+            // index_text = `<span class="card-footer-num">NO. ${this.parameters["card_id"]}</span>`;
             //底部文字：来源
             source_text = `<span class="card-footer-source">Source of the example: <a href="${this.parameters["eg_url"]}" target="_blank">Link</a></span>`;
             //底部文字：得分和星星
             // rating_text = `<span class="card-footer-rating">Effectiveness ratio:  ${this.parameters["rating"]}</span>`;
             // rating_star = `<div class="star-ratings-sprite"><span style="width:${this.parameters["rating"]}" class="star-ratings-sprite-rating"></span></div>`;
             //翻转按钮的文字
-            button_text = "View comments";
+            // button_text = "View comments";
         } else {
             // negative
-            button_text = "Back to front";
+            // button_text = "Back to front";
         }
 
-        card_footer_bottom_html = `<button class="card-footer-bottom">${button_text}</button>`;
+        // card_footer_bottom_html = `<button class="card-footer-bottom">${button_text}</button>`;
         card_footer_node.classList.add("card-footer");
 
-        card_footer_node.innerHTML = source_text + rating_text + rating_star + index_text + card_footer_bottom_html;
+        card_footer_node.innerHTML = source_text + rating_text + rating_star + index_text;
 
         //在卡片底部加icon tag
         // card_footer_bottom_node.innerHTML = card_footer_bottom_icon_html + card_footer_bottom_html;
@@ -414,16 +414,16 @@ Homepage_Card.prototype._bindEvents = function() {
     const modal_title_node = document.querySelector(".modal-title");
 
     // card footer button
-    front_trans_button.addEventListener("click", () => {
-        if (!card_inner_node.classList.contains("turned-over")) {
-            card_inner_node.classList.add("turned-over");
-        }
-    });
-    back_trans_button.addEventListener("click", () => {
-        if (card_inner_node.classList.contains("turned-over")) {
-            card_inner_node.classList.remove("turned-over");
-        }
-    });
+    // front_trans_button.addEventListener("click", () => {
+    //     if (!card_inner_node.classList.contains("turned-over")) {
+    //         card_inner_node.classList.add("turned-over");
+    //     }
+    // });
+    // back_trans_button.addEventListener("click", () => {
+    //     if (card_inner_node.classList.contains("turned-over")) {
+    //         card_inner_node.classList.remove("turned-over");
+    //     }
+    // });
 
     // card footer URL 鼠标划过的tooltip
     // $(card_inner_node.querySelector(".card-footer a")).tooltip({ title: "link to the original work" });
