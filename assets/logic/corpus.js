@@ -39,7 +39,7 @@ class Corpus_Card {
         let card_body = document.createElement("div");
         let cardTitle_Html = `<div class="story-card-title" target="_blank">${this._title}</div>`;
         // let cardNum_Html = `<div class="story-hidden-id">No. ${this._id}</div>`;
-        let cardText_Html = `<div class="card-text"><strong>Description</strong>: ${this._description}</div><div class="card-text"><br><strong>Source</strong>: ${this._source}, <strong>Year</strong>: ${this._year}, <a href="${this._link}" target="_blank" style="color: #007DFF">Link</a><div>${this._method}</div></div>`;
+        let cardText_Html = `<div class="card-text"><strong>Author</strong>: ${this._description}</div><div class="card-text"><br><strong>Source</strong>: ${this._source}, <strong>Year</strong>: ${this._year}, <a href="${this._link}" target="_blank" style="color: #007DFF">Link</a><div>${this._method}</div></div>`;
         // let cardText_Html = `<p class="card-text"><span class="hidden-id">No. ${this._id}</span></p>`;
 
 
@@ -47,8 +47,8 @@ class Corpus_Card {
         card.classList.add("card");
         card_body.classList.add("story-card-body");
 
-        //card_body.innerHTML = cardTitle_Html + cardText_Html;
-        card_body.innerHTML = cardText_Html;
+        card_body.innerHTML = cardTitle_Html + cardText_Html;
+
         card.innerHTML = cardImg_Html;
         card.appendChild(card_body);
 

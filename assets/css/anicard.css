@@ -506,9 +506,10 @@
 
 .story-deck .story-card-title {
     margin: 0 auto;
-    line-height: 2rem;
+    line-height: 1.2rem;
     font-size: 0.85rem;
     font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .story-deck .card-text {
@@ -911,27 +912,27 @@ footer .footer-text {
 }
 
 .badge_1 {
-    background-color: #ad3d4a;
+    background-color: #D05459;
     /* color: white; */
 }
 
 .badge_2 {
-    background-color: #e7c582;
+    background-color: #E7ABA5;
     /* color: white; */
 }
 
 .badge_3 {
-    background-color: #6f8f5b;
+    background-color: #F5C374;
     /* color: white; */
 }
 
 .badge_4 {
-    background-color: #524c7b;
+    background-color: #9BA846;
     /* color: white; */
 }
 
 .badge_5 {
-    background-color: #ab815c;
+    background-color: #39829D;
     /* color: white; */
 }
 
