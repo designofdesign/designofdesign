@@ -22,7 +22,7 @@
 .C1 .mobile-nav-symbol,
 .C1 .scrollSpy-btn-symbol,
 .C1 .reminder-symbol {
-    background-color: #D05459 !important;
+    background-color: #658BA8 !important;
 }
 
 
@@ -31,7 +31,7 @@
 } */
 
 .C1 .card-header {
-    background-color: #D05459 !important;
+    background-color: #658BA8 !important;
 }
 
 .C1 .story-card-body {
@@ -45,7 +45,7 @@
 .C2 .mobile-nav-symbol,
 .C2 .scrollSpy-btn-symbol,
 .C2 .reminder-symbol {
-    background-color: #E7ABA5 !important;
+    background-color: #F1CD61 !important;
 }
 
 
@@ -54,7 +54,7 @@
 } */
 
 .C2 .card-header {
-    background-color: #E7ABA5;
+    background-color: #F1CD61;
 }
 
 .C2 .story-card-body {
@@ -68,7 +68,7 @@
 .C3 .mobile-nav-symbol,
 .C3 .scrollSpy-btn-symbol,
 .C3 .reminder-symbol {
-    background-color: #F5C374 !important;
+    background-color: #CD1D76 !important;
 }
 
 
@@ -77,7 +77,7 @@
 } */
 
 .C3 .card-header {
-    background-color: #F5C374;
+    background-color: #CD1D76;
 }
 
 .C3 .story-card-body {
@@ -91,7 +91,7 @@
 .C4 .mobile-nav-symbol,
 .C4 .scrollSpy-btn-symbol,
 .C4 .reminder-symbol {
-    background-color: #9BA846 !important;
+    background-color: #A6DCE1 !important;
 }
 
 
@@ -100,7 +100,7 @@
 } */
 
 .C4 .card-header {
-    background-color: #9BA846;
+    background-color: #A6DCE1;
 }
 
 .C4 .story-card-body {
@@ -113,7 +113,7 @@
 .C5 .mobile-nav-symbol,
 .C5 .scrollSpy-btn-symbol,
 .C5 .reminder-symbol {
-    background-color: #39829D !important;
+    background-color: #04488E !important;
 }
 
 
@@ -122,7 +122,7 @@
 } */
 
 .C5 .card-header {
-    background-color: #39829D;
+    background-color: #04488E;
 }
 
 .C5 .story-card-body {
@@ -912,27 +912,27 @@ footer .footer-text {
 }
 
 .badge_1 {
-    background-color: #D05459;
+    background-color: #658BA8;
     /* color: white; */
 }
 
 .badge_2 {
-    background-color: #E7ABA5;
+    background-color: #F1CD61;
     /* color: white; */
 }
 
 .badge_3 {
-    background-color: #F5C374;
+    background-color: #CD1D76;
     /* color: white; */
 }
 
 .badge_4 {
-    background-color: #9BA846;
+    background-color: #A6DCE1;
     /* color: white; */
 }
 
 .badge_5 {
-    background-color: #39829D;
+    background-color: #04488E;
     /* color: white; */
 }
 

@@ -7,7 +7,7 @@ class Homepage_Panel {
         global_event_listener = () => {}) {
 
         this._btn_json_url = btn_json_url + "";
-        this._panel_title = "Category";
+        this._panel_title = "Aspects";
         this._btn_name_tag_template = btn_name_tag_template + "";
         this._panel_name = panel_name + "";
         this._btn_queue = []; // save btn items

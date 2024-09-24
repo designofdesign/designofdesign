@@ -1,42 +1,42 @@
 [{
         "VNS_id": 0,
         "VNS_tag": "C1",
-        "VNS_clustername": "Focus",
+        "VNS_clustername": "Inspirations for Exploration",
         "VNS_color": "#D05459",
-        "VNS_desc": "The design spaces in our corpus focus on three primary areas of visualization research: traditional visualization, narrative visualization, and tangible visualization.",
-        "VNS_num": 3
+        "VNS_desc": "Inspirations for exploration are the diverse sources of ideas, concepts, and frameworks that researchers draw upon to guide their initial ideation of a design space. These inspirations help researchers develop unique perspectives and innovative approaches within their chosen areas of visualization research.",
+        "VNS_num": 4
     },
     {
         "VNS_id": 1,
         "VNS_tag": "C2",
-        "VNS_clustername": "Techniques",
+        "VNS_clustername": "Data Sources",
         "VNS_color": "#c0c96f",
-        "VNS_desc": "Within these focus areas, we identify nine visualization techniques that are frequently addressed in design spaces. These techniques can be grouped into three categories: visuals, interaction, and narrative. ",
-        "VNS_num": 9
+        "VNS_desc": "Data sources are the materials and resources from which researchers collect information to construct their design spaces. These sources determine the breadth, depth, and relevance of the information that will ground the resulting design space.",
+        "VNS_num": 4
     },
     {
         "VNS_id": 2,
         "VNS_tag": "C3",
-        "VNS_clustername": "Construction phases",
+        "VNS_clustername": "Creation Strategies",
         "VNS_color": "#f5c8c0",
-        "VNS_desc": "The construction process of developing a well-structured design space can be divided into six distinct phases: data collection, corpus refinement, design space construction, design space refinement, design space analysis, and design space evaluation.",
-        "VNS_num": 6
+        "VNS_desc": "Creation strategies are the approaches researchers use to formulate and structure the dimensions of their design spaces. These strategies guide researchers in developing and populating their design spaces, determining which aspects of visualization to include and how to organize them.",
+        "VNS_num": 3
     },
     {
         "VNS_id": 3,
         "VNS_tag": "C4",
-        "VNS_clustername": "Theoratical foundations",
+        "VNS_clustername": "Evaluation Methods",
         "VNS_color": "#f5c8c0",
-        "VNS_desc": "Our analysis of the papers in our corpus reveals that these theoretical foundations originate from both the visualization domain and non-visualization domains, highlighting the interdisciplinary nature of visualization research.",
-        "VNS_num": 7
+        "VNS_desc": "Evaluation methods encompass the techniques and procedures employed to assess the effectiveness, usability, and applicability of the constructed design spaces. Understanding these methods helps researchers gather evidence, validate assumptions, and identify areas for refinement in their design spaces",
+        "VNS_num": 4
     },
     {
         "VNS_id": 64,
         "VNS_tag": "C5",
-        "VNS_clustername": "Illustrations",
+        "VNS_clustername": "Communication Mediums",
         "VNS_color": "#f5c8c0",
-        "VNS_desc": "Illustrations help depict and communicate the resulting design spaces.",
-        "VNS_num": 7
+        "VNS_desc": "Communication mediums serve as the primary vehicles through which researchers present and explain their design spaces to intended audiences. These mediums impact the clarity, accessibility, and applicability of design spaces for both academic and practitioner communities.",
+        "VNS_num": 5
     }
 
 ]
