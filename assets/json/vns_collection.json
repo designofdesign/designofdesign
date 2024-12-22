@@ -1,7 +1,7 @@
 [{
         "VNS_id": 0,
         "VNS_tag": "C1",
-        "VNS_clustername": "Inspirations for Exploration",
+        "VNS_clustername": "Design Inspirations",
         "VNS_color": "#D05459",
         "VNS_desc": "Inspirations for exploration are the diverse sources of ideas, concepts, and frameworks that researchers draw upon to guide their initial ideation of a design space. These inspirations help researchers develop unique perspectives and innovative approaches within their chosen areas of visualization research.",
         "VNS_num": 4
@@ -9,7 +9,7 @@
     {
         "VNS_id": 1,
         "VNS_tag": "C2",
-        "VNS_clustername": "Data Sources",
+        "VNS_clustername": "Design Examplars",
         "VNS_color": "#c0c96f",
         "VNS_desc": "Data sources are the materials and resources from which researchers collect information to construct their design spaces. These sources determine the breadth, depth, and relevance of the information that will ground the resulting design space.",
         "VNS_num": 4
@@ -17,7 +17,7 @@
     {
         "VNS_id": 2,
         "VNS_tag": "C3",
-        "VNS_clustername": "Creation Strategies",
+        "VNS_clustername": "Design Dimensions",
         "VNS_color": "#f5c8c0",
         "VNS_desc": "Creation strategies are the approaches researchers use to formulate and structure the dimensions of their design spaces. These strategies guide researchers in developing and populating their design spaces, determining which aspects of visualization to include and how to organize them.",
         "VNS_num": 3
